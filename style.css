@@ -1,0 +1,26 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 15rem;
+    color: rgb(135, 15, 255);
+}
+
+.roll{
+    background-color: rgb(234, 230, 0);
+    padding: 10px 20px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.roll :hover{
+    background-color: rgb(198, 195, 0);
+}
